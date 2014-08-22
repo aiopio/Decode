@@ -1,179 +1,174 @@
-# LANGUAGE (de_DE) translation for WordPress.
+# LANGUAGE (LOCALE) translation for WordPress.
 # This file is distributed under the same license as the WordPress package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Decode v2.9.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/decode\n"
 "POT-Creation-Date: 2014-04-14 16:53-0600\n"
-"PO-Revision-Date: 2014-04-14 16:54-0600\n"
+"PO-Revision-Date: 2014-06-16 18:12+0800\n"
 "Last-Translator: Scott Smith <mail@ScottHSmith.com>\n"
 "Language-Team: Scott Smith <mail@ScottHSmith.com>\n"
-"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.4\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.6.5\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
 "esc_attr__;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
 "Description:\n"
 "X-Poedit-Basepath: .\n"
-"X-Textdomain-Support: yes\n"
+"Language: zh_CN\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
 #: ../404.php:15
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Ups! Diese Seite wurde nicht gefunden."
+msgstr "糟糕！该页面无法找到。"
 
 #: ../404.php:19
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
-msgstr ""
-"Sieht so aus, als g&auml;be es hier nichts. Wie w&auml;r&rsquo;s mit einem "
-"der nachfolgenden Links oder einer Suche?"
+msgstr "访问错误。尝试下面的一个链接或搜索吧"
 
 #: ../404.php:26
 msgid "Try looking in the monthly archives."
-msgstr "Versuch es in den Monatsarchiven."
+msgstr "试试访问每月归档"
 
 #: ../404.php:32
 msgid "Most Used Categories"
-msgstr "Am häufigsten verwendete Kategorien"
+msgstr "常用分类"
 
 #: ../archive.php:27
 #, php-format
 msgid "Day: %s"
-msgstr "Tag: %s"
+msgstr "日：%s"
 
 #: ../archive.php:30
 #, php-format
 msgid "Month: %s"
-msgstr "Monat: %s"
+msgstr "月：%s"
 
 #: ../archive.php:30
 msgctxt "monthly archives date format"
 msgid "F Y"
-msgstr ""
+msgstr "F Y"
 
 #: ../archive.php:33
 #, php-format
 msgid "Year: %s"
-msgstr "Jahr: %s"
+msgstr "年：%s"
 
 #: ../archive.php:33
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: ../archive.php:36
 msgid "Asides"
-msgstr "Nebenbemerkungen"
+msgstr "旁白"
 
 #: ../archive.php:39
-#, fuzzy
 msgid "Galleries"
-msgstr "Kategorien"
+msgstr "图像"
 
 #: ../archive.php:42
 msgid "Images"
-msgstr "Bilder"
+msgstr "图片"
 
 #: ../archive.php:45
 msgid "Videos"
-msgstr "Videos"
+msgstr "视频"
 
 #: ../archive.php:48
 msgid "Quotes"
-msgstr "Zitate"
+msgstr "引用"
 
 #: ../archive.php:51
 msgid "Links"
-msgstr "Links"
+msgstr "链接"
 
 #: ../archive.php:54
 msgid "Statuses"
-msgstr "Status"
+msgstr "状态"
 
 #: ../archive.php:57
-#, fuzzy
 msgid "Audios"
-msgstr "Audio-Posts"
+msgstr "音频"
 
 #: ../archive.php:60
 msgid "Chats"
-msgstr "Chats"
+msgstr "讨论"
 
 #: ../archive.php:63 ../inc/extras.php:113 ../page-explore.php:37
 #: ../sidebar.php:30
 msgid "Archives"
-msgstr "Archive"
+msgstr "归档"
 
 #: ../author.php:25 ../content-single.php:21 ../content-single.php:63
 #: ../content-single.php:108
 msgid "Website"
-msgstr "Webseite"
+msgstr "网站"
 
 #: ../author.php:34
 #, php-format
 msgid "Author: %s"
-msgstr "Autor: %s"
+msgstr "作者: %s"
 
 #: ../comments.php:28
 #, php-format
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Ein Gedanke zu &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s Gedanken zu &ldquo;%2$s&rdquo;"
+msgstr[0] "在 &ldquo;%2$s&rdquo; 上有一个观点"
+msgstr[1] "在 &ldquo;%2$s&rdquo; 上有%1$s个观点"
 
 #: ../comments.php:35 ../comments.php:59
 msgid "Comment navigation"
-msgstr "Kommentar-Navigation"
+msgstr "评论导航"
 
 #: ../comments.php:36 ../comments.php:60
 msgid "&larr; Older Comments"
-msgstr "&larr; &Auml;ltere Kommentare"
+msgstr "&larr; 老评论"
 
 #: ../comments.php:37 ../comments.php:61
 msgid "Newer Comments &rarr;"
-msgstr "Neuere Kommentare &rarr;"
+msgstr "最新评论"
 
 #: ../comments.php:71
 msgid "Comments are closed."
-msgstr "Kommentare geschlossen"
+msgstr "评论已关闭"
 
 #: ../comments.php:77 ../comments.php:87
 msgid "Leave a Reply"
-msgstr "Schreibe einen Kommentar"
+msgstr "发表回复"
 
 #: ../comments.php:78 ../comments.php:88
 #, php-format
 msgid "Leave a Reply to %s"
-msgstr "Hinterlasse eine Antwort an %s"
+msgstr "发表回复给 %s"
 
 #: ../comments.php:79 ../comments.php:89
 msgid "Cancel reply"
-msgstr "Antwortvorgang abbrechen"
+msgstr "取消回复"
 
 #: ../comments.php:80 ../comments.php:90
 msgid "Post Comment"
-msgstr "Kommentar absenden"
+msgstr "发送评论"
 
 #: ../comments.php:98
 msgctxt "noun"
 msgid "Comment"
-msgstr "Kommentar"
+msgstr "评论"
 
 #: ../comments.php:99
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr ""
-"Du musst <a href=\"%s\">angemeldet sein</a>, um einen Kommentar zu schreiben."
+msgstr "评论之前你必须 <a href=\"%s\">登录</a>"
 
 #: ../comments.php:100
 #, php-format
@@ -181,12 +176,12 @@ msgid ""
 "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
 "this account\">Log out?</a>"
 msgstr ""
-"Angemeldet als <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Abmelden"
-"\">Abmelden?</a>"
+"已登录 <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this "
+"account\">退出?</a>"
 
 #: ../comments.php:101
 msgid "Your email address will not be published."
-msgstr "Deine E-Mail-Adresse wird nicht ver&ouml;ffentlicht."
+msgstr "你的邮件地址不会被公开"
 
 #: ../comments.php:102
 #, php-format
@@ -194,233 +189,219 @@ msgid ""
 "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
 "and attributes: %s"
 msgstr ""
-"Du kannst folgende <abbr title=\"Hyper Text Markup Language\">HTML</abbr>-"
-"Schnipsel verwenden: %s"
+"你可以使用以下<abbr title=\"HyperText Markup Language\">HTML</abbr> 标签和属"
+"性: %s"
 
 #: ../content-excerpt.php:30
 msgid "Read More&hellip;"
-msgstr "Weiterlesen&hellip;"
+msgstr "阅读更多&hellip;"
 
 #: ../content-excerpt.php:31 ../content-link.php:35 ../content-page.php:26
 #: ../content-quote.php:21 ../content-search.php:19 ../content-single.php:27
 #: ../content-single.php:69 ../content-single.php:114 ../content.php:35
 #: ../image.php:30
 msgid "Edit"
-msgstr "Bearbeiten"
+msgstr "编辑"
 
 #: ../content-link.php:26 ../content-quote.php:12 ../content-single.php:13
 #: ../content-single.php:56 ../content-single.php:100 ../content.php:26
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
+msgstr "继续阅读 <span class=\"meta-nav\">&rarr;</span>"
 
 #: ../content-link.php:29 ../content-page.php:22 ../content-quote.php:15
 #: ../content-single.php:14 ../content-single.php:101 ../content.php:29
 #: ../image.php:91
 msgid "Pages:"
-msgstr "Seiten: "
+msgstr "页面："
 
 #: ../content-link.php:33 ../content-quote.php:19 ../content.php:33
 msgid "Leave a comment"
-msgstr "Schreibe einen Kommentar"
+msgstr "发表评论"
 
 #: ../content-link.php:33 ../content-quote.php:19 ../content.php:33
 msgid "1 Comment"
-msgstr "1 Kommentar"
+msgstr "1 个评论"
 
 #: ../content-link.php:33 ../content-quote.php:19 ../content.php:33
 msgid "% Comments"
-msgstr "% Kommentare"
+msgstr "% 个评论"
 
 #: ../content-link.php:37 ../content-quote.php:23 ../content-single.php:28
 #: ../content-single.php:70 ../content-single.php:115 ../content.php:37
 msgid "Tagged as: "
-msgstr "Getaggt als: "
+msgstr "标签："
 
 #: ../content-link.php:40 ../content-quote.php:26 ../content-single.php:29
 #: ../content-single.php:71 ../content-single.php:116 ../content.php:40
 msgid "Categorized in&#58; "
-msgstr "Abgelegt in&#58; "
+msgstr "分类："
 
 #: ../content-none.php:13
 msgid "Nothing Found"
-msgstr "Nichts gefunden"
+msgstr "未找到"
 
 #: ../content-none.php:19
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
-"Bereit, deinen ersten Post zu ver&ouml;ffentlichen? <a href=\"%1$s\">Beginne "
-"hier</a>."
+msgstr "准备发布你的第一个POST？<a href=\"%1$s\">点击开始</a>."
 
 #: ../content-none.php:23
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
-msgstr ""
-"Entschuldigung, aber es gibt keine Treffer für deine Suche. Bitte versuche "
-"es mit anderen Suchbegriffen."
+msgstr "Sorry，没找到搜索结果，请尝试其他关键字。"
 
 #: ../content-none.php:28
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
-msgstr ""
-"Sieht so aus, als k&ouml;nnten wir nicht finden, was du suchst. Vielleicht "
-"hilft die Suche weiter."
+msgstr "对不起，似乎不能找到你想要的内容，试试搜索吧"
 
 #: ../footer.php:44
 #, php-format
 msgid "%1$s by %2$s"
-msgstr "%1$s von %2$s"
+msgstr ""
 
 #: ../functions.php:82
-#, fuzzy
 msgid "Header Menu"
-msgstr "Header-Bild"
+msgstr "页头菜单"
 
 #: ../functions.php:83
-#, fuzzy
 msgid "Sidebar Menu"
-msgstr "Seitenleiste"
+msgstr "侧边菜单"
 
 #: ../functions.php:84
 msgid "Footer Menu"
-msgstr ""
+msgstr "页脚菜单"
 
 #: ../functions.php:130
 msgid "Sidebar"
-msgstr "Seitenleiste"
+msgstr "侧边栏"
 
 #: ../functions.php:132
 msgctxt "sidebar description"
 msgid "Only displayed if sidebar remains enabled in the Customize menu."
-msgstr ""
+msgstr "仅当侧边栏在自定义菜单中开启时显示"
 
 #: ../header.php:38
 msgid "Skip to content"
-msgstr "Springe zu Inhalt"
+msgstr "跳到内容"
 
 #: ../image.php:22
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
 "\"%1$s\">%2$s</time></span> in <a href=\"%3$s\" title=\"Return to %4$s\" rel="
 "\"gallery\">%5$s</a>"
 msgstr ""
-"Ver&ouml;ffentlicht am <span class=\"entry-date\"><time class=\"entry-date\" "
-"datetime=\"%1$s\">%2$s</time></span> um <a href=\"%3$s\" title=\"Link zum "
-"Originalbild\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Zur&uuml; "
-"zu %7$s\" rel=\"gallery\">%8$s</a>"
+"发布 <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">"
+"%2$s</time></span> in <a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery"
+"\">%5$s</a>"
 
 #: ../image.php:34
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
-msgstr "<span class=\"meta-nav\">&larr;</span> Vorherige"
+msgstr "<span class=\"meta-nav\">&larr;</span> 上一个"
 
 #: ../image.php:35
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgstr "N&auml;chste <span class=\"meta-nav\">&rarr;</span>"
+msgstr "下一个 <span class=\"meta-nav\">&rarr;</span>"
 
 #: ../inc/customizer.php:57
 msgid "Header Options"
-msgstr "Header-Einstellungen"
+msgstr "页首设置"
 
 #: ../inc/customizer.php:90
-#, fuzzy
 msgid "Favicon Image (must be a PNG)"
-msgstr "Favicon Bild (PNG empfohlen)"
+msgstr "网站图标(必须是PNG)"
 
 #: ../inc/customizer.php:97
 msgid "Show Site Title"
-msgstr "Seitentitel anzeigen"
+msgstr "显示站点标题"
 
 #: ../inc/customizer.php:104
 msgid "Show Site Description"
-msgstr "Seitenbeschreibung anzeigen"
+msgstr "显示站点描述"
 
 #: ../inc/customizer.php:111
-#, fuzzy
 msgid "Show Header Menu"
-msgstr "Zeige Seiten-Header"
+msgstr "首先头部菜单"
 
 #: ../inc/customizer.php:118
 msgid ""
 "HTML for description, if you wish to replace your blog description with HTML "
 "markup"
-msgstr ""
-"HTML f&uuml;r die Beschreibung, falls du deine Blog-Beschreibung durch HTML-"
-"Code ersetzen möchtest"
+msgstr "介绍的HTML，如果你想用HTML替换你的博客介绍"
 
 #: ../inc/customizer.php:131
 msgid "Sidebar Options"
-msgstr "Seitenleisten-Einstellungen"
+msgstr "边栏设置"
 
 #: ../inc/customizer.php:155
 msgid "Enable Sidebar"
-msgstr "Seitenleiste aktivieren"
+msgstr "使用边栏"
 
 #: ../inc/customizer.php:162
 msgid "Sidebar Position"
-msgstr "Position der Seitenleiste"
+msgstr "边栏位置"
 
 #: ../inc/customizer.php:166 ../inc/customizer.php:177
 msgid "Left"
-msgstr "Links"
+msgstr "靠左"
 
 #: ../inc/customizer.php:167 ../inc/customizer.php:178
 msgid "Right"
-msgstr "Rechts"
+msgstr "靠右"
 
 #: ../inc/customizer.php:173
 msgid "Sidebar Button Position"
-msgstr "Seitenleiste Button Position"
+msgstr "边栏按钮位置"
 
 #: ../inc/customizer.php:184
 msgid "Always Visible Sidebar"
-msgstr "Seitenleiste immer sichtbar"
+msgstr "边栏始终可见"
 
 #: ../inc/customizer.php:188
 msgctxt "Sidebar option"
 msgid "Always open"
-msgstr ""
+msgstr "总是打开 [边栏选项]"
 
 #: ../inc/customizer.php:189
 msgctxt "Sidebar option"
 msgid "Closed by default"
-msgstr ""
+msgstr "默认关闭 [边栏选项]"
 
 #: ../inc/customizer.php:202
 msgid "Discussion Options"
-msgstr "Diskussionseinstellungen"
+msgstr "评论设置"
 
 #: ../inc/customizer.php:219
 msgid "Enable Comments"
-msgstr "Kommentare aktivieren"
+msgstr "开启评论"
 
 #: ../inc/customizer.php:226
 msgid "Show allowed HTML tags on comment form"
-msgstr ""
+msgstr "显示允许评论中允许的html标签"
 
 #: ../inc/customizer.php:239
 msgid "Social Options"
-msgstr "Social-Einstellung"
+msgstr "社交设置"
 
 #: ../inc/customizer.php:467 ../inc/customizer.php:474
 msgid "Show Social Icons"
-msgstr "Social Icons anzeigen"
+msgstr "显示社交图标"
 
 #: ../inc/customizer.php:467
-#, fuzzy
 msgid "in Header"
-msgstr "Über dem Header"
+msgstr "在页首"
 
 #: ../inc/customizer.php:474
 msgid "in Footer"
-msgstr ""
+msgstr "在页脚"
 
 #: ../inc/customizer.php:481
 msgid "Open Links in New Tab/Window"
-msgstr "Links in neuem Tab/Fenster öffnen"
+msgstr "在新标签中打开链接"
 
 #: ../inc/customizer.php:488 ../inc/customizer.php:495
 #: ../inc/customizer.php:502 ../inc/customizer.php:516
@@ -444,199 +425,184 @@ msgstr "Links in neuem Tab/Fenster öffnen"
 #: ../inc/customizer.php:824
 #, php-format
 msgid "%s Username"
-msgstr "%s Benutzername"
+msgstr "%s 用户名"
 
 #: ../inc/customizer.php:509
 #, php-format
 msgctxt "[noun] [translation string] (explanation)"
 msgid "%1$s Username %2$s"
-msgstr "%1$s Benutzername %2$s"
+msgstr "%1$s 用户名  %2$s"
 
 #: ../inc/customizer.php:509
 msgid " (or the long number in your profile URL)"
-msgstr " (oder die lange Nummer in deiner Profil-URL)"
+msgstr "或你个人资料页的长号码"
 
 #: ../inc/customizer.php:551 ../inc/customizer.php:768
 #, php-format
 msgid "%s Profile URL"
-msgstr "%s Profil-URL"
+msgstr "%s 资料 URL"
 
 #: ../inc/customizer.php:670 ../inc/customizer.php:691
 #: ../inc/customizer.php:705 ../inc/customizer.php:712
 #, php-format
 msgid "%s Site URL"
-msgstr "%s Seiten-URL"
+msgstr "%s 站点 URL"
 
 #: ../inc/customizer.php:719 ../inc/customizer.php:754
 #, php-format
 msgid "%s User ID"
-msgstr ""
+msgstr "%s 用户ID"
 
 #: ../inc/customizer.php:817
 #, php-format
 msgid "%s Group Name"
-msgstr "%s Gruppen-Name"
+msgstr "%s 组名"
 
 #: ../inc/customizer.php:831
 msgid "Email Address"
-msgstr "E-Mail-Adresse"
+msgstr "邮箱"
 
 #: ../inc/customizer.php:838
 #, php-format
 msgid "%s Link"
-msgstr "%s Links"
+msgstr "%s 链接"
 
 #: ../inc/customizer.php:845
 msgid "RSS Feed"
-msgstr "RSS-Feed"
+msgstr "RSS 订阅"
 
 #: ../inc/customizer.php:858
-#, fuzzy
 msgid "Content Options"
-msgstr "Weitere Einstellungen"
+msgstr "内容设置"
 
 #: ../inc/customizer.php:930
 msgid ""
 "Use entry excerpts instead of full text on site home. Excludes sticky posts."
-msgstr ""
-"Zeige Ausschnitte anstelle des vollen Textes an. Haftnotizen ausgenommen."
+msgstr "首页显示摘要而不是全文，除了置顶文章"
 
 #: ../inc/customizer.php:937
 msgid "Use entry excerpts on archive, category, and author pages."
-msgstr ""
+msgstr "在归档、分类和个人页上显示摘要"
 
 #: ../inc/customizer.php:944
-#, fuzzy
 msgid "Display posts' featured images when excerpts are shown."
-msgstr ""
-"Post-Bilder anzeigen, wenn Ausschnitte auf der Hauptseite angezeigt werden"
+msgstr "显示摘要时也展示文章特色图片"
 
 #: ../inc/customizer.php:951
-#, fuzzy
 msgid "Display a post's featured image on its individual page."
-msgstr ""
-"Post-Bilder anzeigen, wenn Ausschnitte auf der Hauptseite angezeigt werden"
+msgstr "在个人页展示文章的特色图片"
 
 #: ../inc/customizer.php:958
 msgid "Show tags on front page (tags will be shown on post's individual page)"
-msgstr ""
-"Zeige Tags auf der Startseite (Tags werden auf der Detailseite eines Posts "
-"angezeigt)"
+msgstr "在个人页显示标签"
 
 #: ../inc/customizer.php:965
 msgid ""
 "Show categories on front page (categories will be shown on post's individual "
 "page)"
-msgstr ""
-"Zeige Kategorien auf der Startseite (Kategorien werden auf der Detailseite "
-"eines Posts angezeigt)"
+msgstr "在个人页显示分类"
 
 #: ../inc/customizer.php:972
 msgid "Show author's name, profile image, and bio after posts"
-msgstr ""
-"Zeige den Namen des Autors, dessen Profilbild und Biographie nach den Posts"
+msgstr "在文章后显示作者名字，个人资料图片"
 
 #: ../inc/customizer.php:979
 msgid "Entry Date Position"
-msgstr "Datums-Position eingeben"
+msgstr "发表时间位置"
 
 #: ../inc/customizer.php:983
 msgid "Above Header"
-msgstr "Über dem Header"
+msgstr "在页头上"
 
 #: ../inc/customizer.php:984
 msgid "Below Header"
-msgstr "Unter dem Header"
+msgstr "在页头下"
 
 #: ../inc/customizer.php:990
 msgid "Show Page Headers"
-msgstr "Zeige Seiten-Header"
+msgstr "显示页头"
 
 #: ../inc/customizer.php:997
 msgid "Show entry date for post excepts on the main page"
-msgstr "Zeige Eintrags-Datum für Post-Ausschnitte auf der Hauptseite"
+msgstr "除了首页，显示文章的发表日期"
 
 #: ../inc/customizer.php:1004
 msgid "Add an arrow before the title of a link post"
-msgstr "F&uuml;ge einen Pfeil vor Titeln eines Link-Posts ein"
+msgstr "在文章标题链接前加一个箭头"
 
 #: ../inc/customizer.php:1011
 msgid ""
 "Show Theme Info (display a line of text about the theme and its creator at "
 "the bottom of pages)"
-msgstr ""
-"Zeige Theme-Info (zeige ein Zeile Text &uuml;ber das Theme und dessen "
-"Entwickler am unteren Seitenrand an)"
+msgstr "显示主题信息(在页面底部显示主题和他的作者)"
 
 #: ../inc/customizer.php:1020
 msgid "Text (colophon, copyright, credits, etc.) for the footer of the site"
-msgstr ""
-"Text (Schlussschrift, Copyright, Abspann, etc.) f&uuml;r die Fusszeile der "
-"Seite"
+msgstr "页脚文本(可以是版权、捐献等)"
 
 #: ../inc/customizer.php:1033
 msgid "Other Options"
-msgstr "Weitere Einstellungen"
+msgstr "其他选项"
 
 #: ../inc/customizer.php:1052
 msgid "Custom CSS"
-msgstr "Benutzerdefiniertes CSS"
+msgstr "自定义CSS"
 
 #: ../inc/customizer.php:1059
 msgid "Show the following post types on home blog page. (Separate with commas)"
-msgstr ""
+msgstr "在首页显示以下类型的文章(用逗号分隔)"
 
 #: ../inc/customizer.php:1098
 msgid "Accent Color"
-msgstr "Akzentfarbe"
+msgstr "已访问链接颜色"
 
 #: ../inc/customizer.php:1105
 msgid "Active Link Color"
-msgstr "Farbe aktiver Links"
+msgstr "未访问链接颜色"
 
 #: ../inc/customizer.php:1112
 msgid "Text Color"
-msgstr "Textfarbe"
+msgstr "文本颜色"
 
 #: ../inc/customizer.php:1119
 msgid "Secondary Text Color"
-msgstr "Zweite Textfarbe"
+msgstr "二级文字颜色"
 
 #: ../inc/customizer.php:1126
 msgid "Use accent color instead of text color for icons"
-msgstr "Verwende Akzentfarbe anstelle der Textfarbe f&uuml;r die Icons"
+msgstr "使用最近颜色取代标签文本颜色"
 
 #: ../inc/extras.php:104
 msgid "Category"
-msgstr "Kategorie"
+msgstr "分类"
 
 #: ../inc/extras.php:107
 msgid "Tag"
-msgstr "Tag"
+msgstr "标签"
 
 #: ../inc/extras.php:110
 msgid "Author"
-msgstr "Autor"
+msgstr "作者"
 
 #: ../inc/extras.php:120 ../inc/extras.php:124
 msgid "Page "
-msgstr "Seite"
+msgstr "页面"
 
 #: ../inc/template-tags.php:23
 msgid "Posts navigation"
-msgstr "Posts-Navigation"
+msgstr "文章导航"
 
 #: ../inc/template-tags.php:27
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> &Auml;ltere Posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 前面的文章"
 
 #: ../inc/template-tags.php:31
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Neuere Posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "最近文章 <span class=\"meta-nav\">&rarr;</span>"
 
 #: ../inc/template-tags.php:56
 msgid "Post navigation"
-msgstr "Post-Navigation"
+msgstr "文章导航"
 
 #: ../inc/template-tags.php:59
 msgctxt "Previous post link"
@@ -649,147 +615,31 @@ msgid "%title <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
 #: ../inc/template-tags.php:138
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "<span class=\"posted-on-text\">Posted on </span><span class=\"posted-on-date"
 "\">%1$s</span><span class=\"byline\"> by %2$s</span>"
 msgstr ""
-"<span class=\"posted-on\">Gepostet am %1$s</span><span class=\"byline\"> von "
-"%2$s</span>"
+"<span class=\"posted-on-text\">发表于 </span><span class=\"posted-on-date\">"
+"%1$s</span><span class=\"byline\"> by %2$s</span>"
 
 #: ../inc/template-tags.php:146
 #, php-format
 msgid "View all posts by %s"
-msgstr "Zeige alle Posts von %s"
+msgstr "查看 %s 的所有文章"
 
 #: ../page-explore.php:11
 msgid "Explore Page"
-msgstr "&Uuml;bersichtsseite"
+msgstr "浏览页"
 
 #: ../page-explore.php:26
 msgid "Recent Posts"
-msgstr "Letzte Posts"
+msgstr "最近文章"
 
 #: ../page-explore.php:44
 msgid "Categories"
-msgstr "Kategorien"
+msgstr "分类"
 
 #: ../sidebar.php:15
-#, fuzzy
 msgid "Navigation"
-msgstr "Navigation anzeigen"
-
-#~ msgid "Header Image"
-#~ msgstr "Header-Bild"
-
-#~ msgid "Reading Options"
-#~ msgstr "Lese-Einstellungen"
-
-#~ msgid "Show all post types, including custom post types"
-#~ msgstr "Zeige alle Post-Typen, inklusive benutzerdefinierter Typen"
-
-#, fuzzy
-#~ msgid ""
-#~ "A minimal, modern theme, designed to be mobile first and fully "
-#~ "responsive, Decode features the ability to change all the colors in the "
-#~ "theme and an elegant sidebar conveniently accessed by tapping on the menu "
-#~ "icon. The sidebar can fit all of your widgets and its position can be "
-#~ "customized. You can also choose to keep the sidebar always visible on "
-#~ "larger screens for an elegent two-column experience. You can even disable "
-#~ "the sidebar and comment links if you choose. Decode supports link posts, "
-#~ "where the title can be hyperlinked. Decode includes custom social icons "
-#~ "in the header that you can easily link to your choice of 42 different "
-#~ "social profiles from Twitter, and App.net, to Pinterest and LinkedIn, you "
-#~ "will be sure to find support for the network you want alongside a bevy of "
-#~ "customizations to make your site unique. Lastly, Decode is also built "
-#~ "alongside a companion plugin that adds a sleek reply tool that lets "
-#~ "readers send you a reply about the post using Twitter or App.net. <a href="
-#~ "\"http://scotthsmith.com/projects/decode/\">More info here</a>"
-#~ msgstr ""
-#~ "Ein einfaches, modernes, speziell für Mobilger&auml;te designtes Theme, "
-#~ "das die M&ouml;glichkeit bietet, alle Farben im Theme zu &auml;ndern, "
-#~ "ebenso wie eine elegante Seitenleiste, die bequem per Klick auf das "
-#~ "Men&uuml;-Icon erreicht werden kann. Die Seitenleiste kann eine "
-#~ "unbegrenzte Anzahl von frei w&auml;hlbaren Widgets enthalten. Ebenfalls "
-#~ "frei gew&auml;hlt werden kann die Position der Seitenleiste (links oder "
-#~ "rechts) und ob sie immer sichtbar sein soll oder geschlossen werden kann. "
-#~ "Wenn du willst, kannst du die Seitenleiste und Kommentare deaktivieren. "
-#~ "Decoder unterst&uuml;tzt Link-Posts, bei denen der Titel ein Link sein "
-#~ "kann. Decoder beinhaltet spezielle Social Ions im Header, welche du "
-#~ "einfach auf 26 verschiedene soziale Profile von Twitter und App.net bis "
-#~ "Pinterest und LinkedIn verlinken kannst. Du wirst sicher das Profil "
-#~ "finden, das du brauchst. Zu guter Letzt wurde Decoder zusammen mit einem "
-#~ "Plugin erstellt, das ein Antwort-Tool bereitstellt, welches Lesern "
-#~ "erm&ouml;glicht, dir eine Antwort zu einem Post via Twitter oder App.net "
-#~ "zu senden. Mehr Informationen findest du hier: http://scotthsmith.com/"
-#~ "projects/decode/."
-
-#~ msgid "Nav Menu"
-#~ msgstr "Navigations-Men&uuml;"
-
-#~ msgctxt "assistive text"
-#~ msgid "Search"
-#~ msgstr "Suche"
-
-#~ msgctxt "placeholder"
-#~ msgid "Search&hellip;"
-#~ msgstr "Suche&hellip;"
-
-#~ msgctxt "label"
-#~ msgid "Search for:"
-#~ msgstr "Suche nach:"
-
-#~ msgctxt "submit button"
-#~ msgid "Search"
-#~ msgstr "Suchen"
-
-#~ msgid "Pingback:"
-#~ msgstr "Pingback:"
-
-#~ msgid "%s <span class=\"says\">says:</span>"
-#~ msgstr "%s <span class=\"says\">sagt:</span>"
-
-#~ msgid "Your comment is awaiting moderation."
-#~ msgstr "Dein Kommentar wartet auf Moderation."
-
-#~ msgid "Reply"
-#~ msgstr "Antworten"
-
-#~ msgctxt "Previous post link"
-#~ msgid "&larr;"
-#~ msgstr "&larr;"
-
-#~ msgctxt "Next post link"
-#~ msgid "&rarr;"
-#~ msgstr "&rarr;"
-
-#~ msgid ""
-#~ "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post "
-#~ "a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s"
-#~ "\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</"
-#~ "a>."
-#~ msgstr ""
-#~ "<a class=\"comment-link\" href=\"#respond\" title=\"Schreibe einen "
-#~ "Kommentar\">Schreibe einen Kommentar</a> oder hinterlasse einen "
-#~ "Trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL "
-#~ "deines Posts\" rel=\"trackback\">Trackback URL</a>."
-
-#~ msgid ""
-#~ "Comments are closed, but you can leave a trackback: <a class=\"trackback-"
-#~ "link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
-#~ "\">Trackback URL</a>."
-#~ msgstr ""
-#~ "Kommentare sind geschlossen, aber du kannst einen Trackback hinterlassen: "
-#~ "<a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL deines Posts"
-#~ "\" rel=\"trackback\">Trackback URL</a>."
-
-#~ msgid ""
-#~ "Trackbacks are closed, but you can <a class=\"comment-link\" href="
-#~ "\"#respond\" title=\"Post a comment\">post a comment</a>."
-#~ msgstr ""
-#~ "Trackbacks sind geschlossen. Aber du kannst <a class=\"comment-link\" "
-#~ "href=\"#respond\" title=\"Poste einen Kommentar\">einen Kommentar posten</"
-#~ "a>."
-
-#~ msgid "Both comments and trackbacks are currently closed."
-#~ msgstr "Kommentare und Trackbacks sind momentan geschlossen."
+msgstr "导航"
